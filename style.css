@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #333333, #1a1a1a);   
+}
+
+h1 {
+    position: absolute;
+    left: 25%;
+    top: 15px;
+    color: white;
+    font-size: 100;
+    background: gray;
+  }
+
+  table {
+    color: white;
+    padding: 30px;
+    text-align: center;
+    width: 50%;
+    align-content: center;
+    margin-left: 25%;
+  }
+
+  th {
+    font-size: 100;
+    
+  }
+  td{
+    font-size: 20;
+  }
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: lime;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+img {
+  position: absolute;
+  display: block;
+  margin-left: 60%;
+  
+  width: 40%;
+}
+
+#first, #second, #third {
+  display: none
+}
+
+/*.picture {
+  display: block;
+  margin-left: -950;
+  margin-top: 150;
+  width: 100%;
+}
+*/
+iframe {
+  position: absolute;
+  display: block;
+  margin-left: 15%;
+  height: 50%;
+  width: 50%;
+  margin-left: 50;
+  margin-top: 100;
+
+}
+
+#video {
+  display: none
+}
+
+audio {
+  position: absolute;
+  display: block;
+  margin-left: 15%;
+  height: 50%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 275;
+}
+
+#music {
+  display: none
+}
+
+#cool {
+  position: absolute;
+  display: block;
+  margin-left: -175;
+  margin-top: -175;
+  width: 20%;
+}
